@@ -1,8 +1,10 @@
+import Header from './Components/Header'
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>funciona</h1>
+    <div className="container-fluid" id="app">
+      <Header />
 
     </div>
   );
