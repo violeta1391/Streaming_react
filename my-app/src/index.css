@@ -34,6 +34,10 @@ code {
   font-size: 1.2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.navbar h2{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+}
 #navbar-form button{
   font-size: .9em;
   font-weight: 500;
@@ -50,14 +54,9 @@ code {
 p {
 	font-size: .9em;    
 } 
-li{
-	font-size: .9em; 
-    color: var(--white);   
-}
 span{
     padding: 1em;
 }
-
 #face{
     width: 1.2em; 
     margin: 1em;
@@ -94,3 +93,18 @@ span{
 .enlaces a{
     color: var(--white);
 }
+
+.popTitles{
+  padding: 1% 7% .1% 7%;
+  font-size: 1.8em;
+  font-weight: 500;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.seriesMovies{
+  padding: 3% 0 0 8%;  
+}
+.seriesMovies p{
+  font-weight: 500;  
+}
+
