@@ -11,13 +11,13 @@ const Home = () => {
             <div>
                 <div className="row seriesMovies">
                     <div className="m-2">
-                        <a href="./series">
+                        <a href="./Series">
                             <img src={series} className="App-series" alt="series" />
                         </a>
                         <p className="mt-2">Popular Series</p>
                     </div>
                     <div className="m-2">
-                        <a href="./movies">
+                        <a href="./Movies">
                             <img src={movie} className="App-movie" alt="movie" />
                         </a>
                         <p className="mt-2">Popular Movies</p>
