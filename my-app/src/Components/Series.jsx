@@ -6,9 +6,13 @@ let contador = 0;
 
 const Series = () => {
 
+    
+
     React.useEffect(() => {
         document.title = `Series`;
     }, [])
+
+
 
     const tipo = datos.map(function (x) {
         if (x.programType === "series" && x.releaseYear > 2010 && contador < 20) {
@@ -20,6 +24,10 @@ const Series = () => {
             contador++
         }
     })
+
+    const result = datos.filter(it => it.programType === "series");
+    const resultDos = result.filter(it => it.releaseYear > 2010);
+
 
 
     const divStyle = {
@@ -34,13 +42,17 @@ const Series = () => {
             <div style={divStyle}>Hello World!</div>;
             <ul className="lista">
                 {
-                    datos.map(item => (
+                    resultDos.map(item => (
                         <li>
                             <p>{item.title}</p>
+                            <p>{item.programType}</p>
+                            <p>{item.releaseYear}</p>
                         </li>
+
                     ))
                 }
             </ul>
+
         </div>
     );
 }
