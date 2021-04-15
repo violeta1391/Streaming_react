@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Streaming_react/static/css/main.d1f781e3.chunk.css",
+    "main.js": "/Streaming_react/static/js/main.ccf444a0.chunk.js",
+    "main.js.map": "/Streaming_react/static/js/main.ccf444a0.chunk.js.map",
+    "runtime-main.js": "/Streaming_react/static/js/runtime-main.c1255412.js",
+    "runtime-main.js.map": "/Streaming_react/static/js/runtime-main.c1255412.js.map",
+    "static/js/2.7940f68b.chunk.js": "/Streaming_react/static/js/2.7940f68b.chunk.js",
+    "static/js/2.7940f68b.chunk.js.map": "/Streaming_react/static/js/2.7940f68b.chunk.js.map",
+    "index.html": "/Streaming_react/index.html",
+    "static/css/main.d1f781e3.chunk.css.map": "/Streaming_react/static/css/main.d1f781e3.chunk.css.map",
+    "static/js/2.7940f68b.chunk.js.LICENSE.txt": "/Streaming_react/static/js/2.7940f68b.chunk.js.LICENSE.txt",
+    "static/media/appStore.709c1ac0.svg": "/Streaming_react/static/media/appStore.709c1ac0.svg",
+    "static/media/facebook.dec54804.svg": "/Streaming_react/static/media/facebook.dec54804.svg",
+    "static/media/instagram.43bb1c81.svg": "/Streaming_react/static/media/instagram.43bb1c81.svg",
+    "static/media/movies.8d1156e0.png": "/Streaming_react/static/media/movies.8d1156e0.png",
+    "static/media/playStore.73d72a5f.svg": "/Streaming_react/static/media/playStore.73d72a5f.svg",
+    "static/media/series.3bdd035d.png": "/Streaming_react/static/media/series.3bdd035d.png",
+    "static/media/twitter.d40d391a.svg": "/Streaming_react/static/media/twitter.d40d391a.svg",
+    "static/media/windowsStore.6c6aaa1e.svg": "/Streaming_react/static/media/windowsStore.6c6aaa1e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1255412.js",
+    "static/js/2.7940f68b.chunk.js",
+    "static/css/main.d1f781e3.chunk.css",
+    "static/js/main.ccf444a0.chunk.js"
+  ]
+}
