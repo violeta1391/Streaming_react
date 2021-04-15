@@ -8,30 +8,30 @@ import Series from './Components/Series'
 import Movies from './Components/Movies'
 
 import {
-  BrowserRouter as HashRouter,
+  BrowserRouter as Router,
   Switch,
-  HashRouter
+  Route
 } from "react-router-dom";
 
 
 ReactDOM.render(
-  <HashRouter>
+  <Router>
     <Header />
     <Switch>
-      <HashRouter path="/Series">
+      <Route path="/Series">
         <Series />
-      </HashRouter>
+      </Route>
 
-      <HashRouter path="/Movies">
+      <Route path="/Movies">
       <Movies />
-      </HashRouter>
+      </Route>
 
-      <HashRouter path="/">
+      <Route path="/Home">
         <Home />
-      </HashRouter>
+      </Route>
 
     </Switch>
     <Footer />
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );

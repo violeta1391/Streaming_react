@@ -1,3 +1,7 @@
+
+# GitHub Pages 
+https://violeta1391.github.io/Streaming_react/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
